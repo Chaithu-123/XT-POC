@@ -5,11 +5,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <link rel="icon" href="img/ecom.png" type="image/png" sizes="16x16">
+    <title>E-Com</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </head>
 
 <body>
+    <header>
+        <nav class="nav">
+            <a href="#">
+                <img src="#" alt="E-Com" width="81" height="72">
+            </a>
+            <a class="nav-link active" href="#">Clothes</a>
+            <a class="nav-link" href="#">Footwear</a>
+            <a class="nav-link" href="#">Accesories</a>
+            <a class="nav-link" href="#">Login</a>
+            <a class="nav-link" href="#">Sign Up</a>
+        </nav>
+    </header>
+    <h1>YOUR SHOPPING BAG</h1>
 
+    <div id="cart_details"></div>
+    <div id="cart_price"></div>
+
+    <!-- <script type="text/javascript" src="data.json"></script> -->
+    <script src="./js/cartDetails/cartDetailsController.js"></script>
 </body>
 
 </html>
